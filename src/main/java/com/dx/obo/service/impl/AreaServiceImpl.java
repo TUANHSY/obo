@@ -14,8 +14,14 @@ import java.util.List;
  */
 @Service
 public class AreaServiceImpl implements AreaService {
-    @Autowired
+
+    final
     AreaDao areaDao;
+
+    public AreaServiceImpl(AreaDao areaDao) {
+        this.areaDao = areaDao;
+    }
+
     @Override
     public List<Area> getAllAreaList() {
         return areaDao.listAllArea();

@@ -39,6 +39,7 @@ public class Permutations {
         return (n >= m) ? factorial(n) / factorial(n - m) / factorial(m) : 0;
     }
 
+    //打印文件
     public static void outputToFile(String[] strings){
         try {
             FileOutputStream fileOutputStream = new FileOutputStream("E:\\IdeaProjects\\learn\\obo\\src\\main\\resources\\outPut.txt",true);
@@ -79,18 +80,18 @@ public class Permutations {
         }
 
         // 递归选择下一个
-        for (int i = 0; i < dataList.length; i++) {
+        for (String s : dataList) {
             // 判断待选项是否存在于排列结果中
             boolean exists = false;
             for (int j = 0; j < resultIndex; j++) {
-                if (dataList[i].equals(resultList[j])) {
+                if (s.equals(resultList[j])) {
                     exists = true;
                     break;
                 }
             }
             // 排列结果不存在该项，才可选择
             if (!exists) {
-                resultList[resultIndex] = dataList[i];
+                resultList[resultIndex] = s;
                 arrangementSelect(dataList, resultList, resultIndex + 1);
             }
         }
@@ -139,8 +140,8 @@ public class Permutations {
                "你", "妈妈", "知道", "我", "帮","她","做家务"
         }, 7);
 
-        combinationSelect(new String[] {
-                "你", "妈妈", "知道", "我", "帮","她","做家务"
-        }, 7);
+//        combinationSelect(new String[] {
+//                "你", "妈妈", "知道", "我", "帮","她","做家务"
+//        }, 7);
     }
 }

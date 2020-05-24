@@ -17,7 +17,7 @@ public class A2 {
         Scanner in = new Scanner(System.in);
         while (in.hasNext()){
             int n = in.nextInt();
-            HashMap<Integer,Integer> map= new HashMap();
+            HashMap<Integer, Integer> map= new HashMap<>();
             System.out.println(coinDivision(n,map));
         }
     }

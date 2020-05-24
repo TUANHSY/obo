@@ -1,9 +1,15 @@
-2019-09-28 15:37:10.009 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==>  Preparing: select area_id,area_name,priority,create_time,last_edit_time from tb_area order by priority desc 
-2019-09-28 15:37:10.079 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==> Parameters: 
-2019-09-28 15:37:10.122 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - <==      Total: 2
-2019-09-28 15:37:10.138 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaById - ==>  Preparing: select * from tb_area where area_id=? 
-2019-09-28 15:37:10.139 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaById - ==> Parameters: 3(Integer)
-2019-09-28 15:37:10.142 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaById - <==      Total: 1
-2019-09-28 15:37:10.145 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaByName - ==>  Preparing: select * from tb_area where area_name=? 
-2019-09-28 15:37:10.146 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaByName - ==> Parameters: 西苑(String)
-2019-09-28 15:37:10.148 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaByName - <==      Total: 1
+2020-05-24 22:59:11.286 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==>  Preparing: select area_id,area_name,priority,create_time,last_edit_time from tb_area order by priority desc 
+2020-05-24 22:59:11.309 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==> Parameters: 
+2020-05-24 22:59:11.328 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - <==      Total: 2
+2020-05-24 22:59:11.333 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaById - ==>  Preparing: select * from tb_area where area_id=? 
+2020-05-24 22:59:11.334 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaById - ==> Parameters: 3(Integer)
+2020-05-24 22:59:11.341 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaById - <==      Total: 1
+2020-05-24 22:59:11.342 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaByName - ==>  Preparing: select * from tb_area where area_name=? 
+2020-05-24 22:59:11.343 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaByName - ==> Parameters: 西苑(String)
+2020-05-24 22:59:11.345 [main] DEBUG com.dx.obo.dao.AreaDao.getAreaByName - <==      Total: 1
+2020-05-24 23:00:08.433 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==>  Preparing: select area_id,area_name,priority,create_time,last_edit_time from tb_area order by priority desc 
+2020-05-24 23:00:08.455 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==> Parameters: 
+2020-05-24 23:00:08.470 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - <==      Total: 2
+2020-05-24 23:41:21.206 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==>  Preparing: select area_id,area_name,priority,create_time,last_edit_time from tb_area order by priority desc 
+2020-05-24 23:41:21.236 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - ==> Parameters: 
+2020-05-24 23:41:21.251 [main] DEBUG com.dx.obo.dao.AreaDao.listAllArea - <==      Total: 2
